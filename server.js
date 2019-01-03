@@ -27,6 +27,7 @@ app.get("/api/hello", function (req, res) {
 
 // your first API endpoint... 
 // is it now on github?
+// another version?
 app.get("/api/timestamp/:data_string?", function (req, res) {
   var timestamp = req.path.replace("/api/timestamp/", "");
   var isValid = true;
